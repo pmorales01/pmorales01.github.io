@@ -4,8 +4,8 @@ main:
     url: '#'
   - title: "About"
     url: '/about.html'
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Wireframes"
+    url: './wireframes.html'
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
