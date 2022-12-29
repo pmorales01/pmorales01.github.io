@@ -1,11 +1,30 @@
 const images = [["/assets/images/app/start.png", "Start Screen"], 
     ["/assets/images/app/homepage.png", "Homepage Screen"], 
-    ["/assets/images/app/item-search.png", "Search for an Item Screen"],
-    ["/assets/images/app/create-items.png", "Create an Item Screen"], 
-    ["/assets/images/app/item-selection.png", "Select an Item and Enter a Quantity Screen"]]
+    ["/assets/images/app/item-search.png", "Searching for an Item Screen"],
+    ["/assets/images/app/create-items.png", "Creating an Item Screen"], 
+    ["/assets/images/app/item-selection.png", "Selecting an Item and Entering a Quantity"], 
+    ["/assets/images/app/store-locator-selection.png", "Selecting a Method to Locate Stores"], 
+    ["/assets/images/app/store-locator.png", "Selecting a Store From List of Pre-Selected Stores"], 
+    ["/assets/images/app/store-locator-location.png", "Using User's Geographic Location to Find a Store"], 
+    ["/assets/images/app/store-selection-1.png", "Shopping List with Total Expected Amount to Pay at Store"],
+    ["/assets/images/app/store-selection-2.png", "Shopping List with Total Expected Amount to Pay at Store"],
+    ["/assets/images/app/store-selection-item-not-found.png", "Shopping List with Missing Items"], 
+    ["/assets/images/app/save-list-item-not-found.png", "Saving a Shopping List with Missing Items"],
+    ["/assets/images/app/using-list.png", "Using a Shopping List After Saving It"], 
+    ["/assets/images/app/using-list-item-not-found.png", "Using a Shopping List with Missing Items After Saving It"], 
+    ["/assets/images/app/list-summary.png", "Shopping List Summary Screen"], 
+    ["/assets/images/app/list-edit.png", "Editing Shopping List Screen"]]
 
 const imagesWeb = [["/assets/images/web/homepage-guest.png", "Homepage for a Guest"], 
-    ["/assets/images/web/homepage-registered-user.png", "Homepage for a Registered User"]]
+    ["/assets/images/web/homepage-registered-user.png", "Homepage for a Registered User"], 
+    ["/assets/images/web/sign-up.png", "Account Sign Up Page"], 
+    ["/assets/images/web/log-in.png", "User Log In Page"], 
+    ["/assets/images/web/search-results-video-games.png", "Search Results Example"], 
+    ["/assets/images/web/view-listing.png", "Viewing a Listing"], 
+    ["/assets/images/web/trade.png", "Making an Offer for An Item"], 
+    ["/assets/images/web/trade-accept.png", "Accepting An Offer"], 
+    ["/assets/images/web/payment.png", "Making a Payment"],
+    ["assets/images/web/create-listing.png", "Creating a Listing"]]
 
 class Carousel {
     constructor(parent, prev, next, arr) {
