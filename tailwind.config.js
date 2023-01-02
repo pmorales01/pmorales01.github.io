@@ -4,7 +4,8 @@ module.exports = {
     "./*.{html,js}",
     "./index.html",
     "./_layouts/*.{html, js}",
-    "./assets/**/*.{js, html}"],
+    "./assets/**/*.{js, html}",
+    "./_includes/**/*.html"],
   theme: {
     extend: {},
   },

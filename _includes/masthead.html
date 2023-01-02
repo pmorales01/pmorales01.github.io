@@ -11,11 +11,23 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
-        <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-            </li>
+        <ul class="flex justify-end flex-1 px-2">
+          {%- for link in site.data.navigation.main -%}            
+          
+            {% if link.subfolderitems == null %}
+              <li class="rounded-xl masthead__menu-item text-lg hover:bg-slate-200">
+                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% else %}
+              <li class="dropdown dropdown-hover rounded-xl masthead__menu-item text-lg hover:bg-slate-200">
+                <a tabindex="0" class="rounded-xl masthead__menu-item text-lg hover:bg-slate-200">{{ link.title }}</a>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-46">
+                  {% for entry in link.subfolderitems %}
+                      <li><a class="hover:bg-slate-200" href="{{ entry.url | relative_url }}"{% if entry.description %} title="{{ entry.description }}"{% endif %}>{{ entry.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li> 
+            {% endif %}
           {%- endfor -%}
         </ul>
         {% if site.search == true %}

@@ -6,7 +6,17 @@ main:
     url: '/about.html'
   - title: "Wireframes"
     url: './wireframes.html'
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Projects"
+    subfolderitems:
+      - title: "HTML, CSS, JS"
+        url: '#'
+      - title: "PHP, SQL"
+        url: '#'
+      - title: "C++"
+        url: '#'
+      - title: "C"
+        url: '#'
+      - title: "x86 Assembly"
+        url: '#'
+      - title: "Python"
+        url: '#'
