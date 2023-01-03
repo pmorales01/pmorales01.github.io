@@ -9,7 +9,7 @@ main:
   - title: "Projects"
     subfolderitems:
       - title: "HTML, CSS, JS"
-        url: '#'
+        url: './web-dev-projects.html'
       - title: "PHP, SQL"
         url: '#'
       - title: "C++"

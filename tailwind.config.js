@@ -5,7 +5,8 @@ module.exports = {
     "./index.html",
     "./_layouts/*.{html, js}",
     "./assets/**/*.{js, html}",
-    "./_includes/**/*.html"],
+    "./_includes/**/*.html", 
+    "./_web/*.html"],
   theme: {
     extend: {},
   },
