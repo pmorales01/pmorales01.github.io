@@ -11,7 +11,7 @@ main:
       - title: "HTML, CSS, JS"
         url: './web-dev-projects.html'
       - title: "PHP, SQL"
-        url: '#'
+        url: './php.html'
       - title: "C++"
         url: '#'
       - title: "C"

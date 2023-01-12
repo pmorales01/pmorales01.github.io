@@ -1,18 +1,6 @@
 ---
-layout: default
+layout: projects
 title: WebDev
 permalink: './web-dev-projects.html'
+collection: web
 ---
-
-<div class="flex flex-col w-full">
-{% for post in site.web %}
-    <div class="grid mx-8 mt-8 p-4 space-y-3.5 border rounded-lg">
-        <h2 class="text-red-500 text-2xl text-center font-extrabold">{{ post.name }} </h2>
-        <p>Hosting Website: <a class="link link-info" href="{{ post.pages }}" target="_blank" rel="noopener noreferrer">{{ post.pages }}</a></p>
-        <p>GitHub Repo Link: <a class="link link-info" href="{{ post.repo }}" target="_blank" rel="noopener noreferrer">{{ post.repo }}</a></p>
-        <p>Languages Used: {{ post.languages }}</p>
-        <br>
-        {{ post.content }}
-    </div> 
-{% endfor %}
-</div>

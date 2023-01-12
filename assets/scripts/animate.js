@@ -1,7 +1,7 @@
 const div = document.getElementById('btn-container')
 
 const subjects = [["HTML, CSS, JS", './web-dev-projects.html'],
-    ["PHP, SQL", '#'],
+    ["PHP, SQL", './php.html'],
     ["C++", '#'],
     ["C", '#'],
     ["x86 Assembly", '#'],
