@@ -1,0 +1,30 @@
+[
+    {
+       "dept":1000000000,
+       "title":"Object-Oriented Programming",
+       "units":3,
+       "number":"CPSC 121",
+       "textbook":"Introduction to OO Programming"
+    },
+    {
+       "dept":1000000000,
+       "title":"Data Structures",
+       "units":3,
+       "number":"CPSC 131",
+       "textbook":"Introduction to Data Structures"
+    },
+    {
+       "dept":2000000000,
+       "title":"Calculus I",
+       "units":3,
+       "number":"MATH 150A",
+       "textbook":"Calculus Essentials"
+    },
+    {
+       "dept":2000000000,
+       "title":"Calculus II",
+       "units":3,
+       "number":"MATH 150B",
+       "textbook":"Calculus Essentials"
+    }
+ ]

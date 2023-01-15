@@ -4,7 +4,7 @@ const subjects = [["HTML, CSS, JS", './web-dev-projects.html'],
     ["PHP, SQL", './php.html'],
     ["C++", '#'],
     ["C", '#'],
-    ["x86 Assembly", '#'],
+    ["x86 Assembly", './asm.html'],
     ["Python", '#']]
 
 for (let i = 0; i < subjects.length; ++i) {

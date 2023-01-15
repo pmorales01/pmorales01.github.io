@@ -6,7 +6,8 @@ module.exports = {
     "./_layouts/*.{html, js}",
     "./assets/**/*.{js, html}",
     "./_includes/**/*.html", 
-    "./_web/*.html"],
+    "./_web/*.html",
+    "./_phpProjects/*.html"],
 
   theme: {
     extend: {

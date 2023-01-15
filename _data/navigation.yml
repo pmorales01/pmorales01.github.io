@@ -17,6 +17,6 @@ main:
       - title: "C"
         url: '#'
       - title: "x86 Assembly"
-        url: '#'
+        url: './asm.html'
       - title: "Python"
         url: '#'

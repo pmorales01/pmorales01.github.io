@@ -1,0 +1,18 @@
+[
+   {
+      "chair":"John Smith",
+      "office":"CS-201",
+      "deptNum":1000000000,
+      "chairSSN":123456789,
+      "deptName":"CPSC",
+      "telephone":9428192412
+   },
+   {
+      "chair":"Jane Williams",
+      "office":"MH-514",
+      "deptNum":2000000000,
+      "chairSSN":342481341,
+      "deptName":"MATH",
+      "telephone":9422452391
+   }
+]

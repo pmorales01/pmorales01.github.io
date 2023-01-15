@@ -1,0 +1,66 @@
+[
+    {
+       "id":180604020,
+       "fname":"Christopher",
+       "lname":"Jackson",
+       "address":"1932 E Lincoln Dr, Anaheim, CA 90703",
+       "telephone":6570806040,
+       "department":2000000000
+    },
+    {
+       "id":181614121,
+       "fname":"Thomas",
+       "lname":"Cruz",
+       "address":"120 S Pool St, Fullerton, CA 90620",
+       "telephone":6571816141,
+       "department":2000000000
+    },
+    {
+       "id":484644345,
+       "fname":"Amber",
+       "lname":"Morrison",
+       "address":"941 E Maple Dr, Fullerton, CA 90620",
+       "telephone":6573836343,
+       "department":2000000000
+    },
+    {
+       "id":585654328,
+       "fname":"Olivia",
+       "lname":"Charles",
+       "address":"492 W Broadway St, Anaheim, CA 90703",
+       "telephone":6574846443,
+       "department":1000000000
+    },
+    {
+       "id":787657327,
+       "fname":"Jonathan",
+       "lname":"Garcia",
+       "address":"812 N Harbor St, Fullerton, CA 90620",
+       "telephone":6576866546,
+       "department":1000000000
+    },
+    {
+       "id":937353332,
+       "fname":"Andrew",
+       "lname":"Canon",
+       "address":"2049 N Cherry St, Anaheim, CA 90703",
+       "telephone":6572826242,
+       "department":1000000000
+    },
+    {
+       "id":967656321,
+       "fname":"William",
+       "lname":"Smith",
+       "address":"502 S Arbor Dr, Fullerton, CA 90620",
+       "telephone":6575856545,
+       "department":2000000000
+    },
+    {
+       "id":987654321,
+       "fname":"Jada",
+       "lname":"Roberts",
+       "address":"987 W Lake Dr, Fullerton, CA 90620",
+       "telephone":6579876543,
+       "department":1000000000
+    }
+ ]

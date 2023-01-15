@@ -1,0 +1,54 @@
+[
+   {
+      "sex":"M",
+      "ssn":123456789,
+      "city":"Fullerton",
+      "name":"John Smith",
+      "state":"CA",
+      "title":"Professor",
+      "salary":120000,
+      "street":"123 E Red St",
+      "zipcode":"90621",
+      "areaCode":657,
+      "digitNum":1234567
+   },
+   {
+      "sex":"F",
+      "ssn":342481341,
+      "city":"Anaheim",
+      "name":"Jane Williams",
+      "state":"CA",
+      "title":"Professor",
+      "salary":120000,
+      "street":"4921 S Blue St",
+      "zipcode":"90703",
+      "areaCode":657,
+      "digitNum":4921924
+   },
+   {
+      "sex":"M",
+      "ssn":514440011,
+      "city":"Fullerton",
+      "name":"Casey Jones",
+      "state":"CA",
+      "title":"Associate Professor",
+      "salary":90000,
+      "street":"501 N Washington St",
+      "zipcode":"90621",
+      "areaCode":657,
+      "digitNum":214260
+   },
+   {
+      "sex":"M",
+      "ssn":999999999,
+      "city":"Laguna Hills",
+      "name":"Richard Sanchez",
+      "state":"CA",
+      "title":"Adjunct Professor",
+      "salary":45000,
+      "street":"806 W Elm St",
+      "zipcode":"92637",
+      "areaCode":949,
+      "digitNum":1030507
+   }
+]

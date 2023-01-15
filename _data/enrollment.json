@@ -1,0 +1,128 @@
+[
+    {
+       "id":180604020,
+       "grade":"C+",
+       "course":"CPSC 121",
+       "section":12347
+    },
+    {
+       "id":180604020,
+       "grade":"D-",
+       "course":"CPSC 131",
+       "section":12345
+    },
+    {
+       "id":180604020,
+       "grade":"F",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "id":181614121,
+       "grade":"W",
+       "course":"CPSC 121",
+       "section":12346
+    },
+    {
+       "id":181614121,
+       "grade":"D",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "id":484644345,
+       "grade":"A+",
+       "course":"CPSC 121",
+       "section":12347
+    },
+    {
+       "id":484644345,
+       "grade":"C",
+       "course":"CPSC 131",
+       "section":12345
+    },
+    {
+       "id":585654328,
+       "grade":"B",
+       "course":"CPSC 121",
+       "section":12347
+    },
+    {
+       "id":585654328,
+       "grade":"A-",
+       "course":"CPSC 131",
+       "section":12345
+    },
+    {
+       "id":585654328,
+       "grade":"C-",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "id":787657327,
+       "grade":"F",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "id":937353332,
+       "grade":"A",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "id":937353332,
+       "grade":"B+",
+       "course":"MATH 150B",
+       "section":12101
+    },
+    {
+       "id":967656321,
+       "grade":"A-",
+       "course":"CPSC 121",
+       "section":12346
+    },
+    {
+       "id":967656321,
+       "grade":"A+",
+       "course":"CPSC 131",
+       "section":12345
+    },
+    {
+       "id":967656321,
+       "grade":"A+",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "id":967656321,
+       "grade":"D+",
+       "course":"MATH 150B",
+       "section":12101
+    },
+    {
+       "id":987654321,
+       "grade":"A+",
+       "course":"CPSC 121",
+       "section":12346
+    },
+    {
+       "id":987654321,
+       "grade":"A-",
+       "course":"CPSC 131",
+       "section":12345
+    },
+    {
+       "id":987654321,
+       "grade":"B-",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "id":987654321,
+       "grade":"C+",
+       "course":"MATH 150B",
+       "section":12102
+    }
+ ]

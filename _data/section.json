@@ -1,0 +1,56 @@
+[
+    {
+       "seats":40,
+       "course":"CPSC 121",
+       "endTime":"12:15 PM",
+       "section":12346,
+       "classroom":"CS-102",
+       "startTime":"11:00 AM",
+       "professorSSN":514440011
+    },
+    {
+       "seats":30,
+       "course":"CPSC 121",
+       "endTime":"3:15 PM",
+       "section":12347,
+       "classroom":"CS-102",
+       "startTime":"2:00 PM",
+       "professorSSN":514440011
+    },
+    {
+       "seats":30,
+       "course":"CPSC 131",
+       "endTime":"2:15 PM",
+       "section":12345,
+       "classroom":"CS-101",
+       "startTime":"1:00 PM",
+       "professorSSN":123456789
+    },
+    {
+       "seats":35,
+       "course":"MATH 150A",
+       "endTime":"10:50 AM",
+       "section":12001,
+       "classroom":"MH-410",
+       "startTime":"9:00 AM",
+       "professorSSN":342481341
+    },
+    {
+       "seats":30,
+       "course":"MATH 150B",
+       "endTime":"10:50 AM",
+       "section":12101,
+       "classroom":"H-205",
+       "startTime":"9:00 AM",
+       "professorSSN":999999999
+    },
+    {
+       "seats":35,
+       "course":"MATH 150B",
+       "endTime":"2:50 PM",
+       "section":12102,
+       "classroom":"H-205",
+       "startTime":"1:00 PM",
+       "professorSSN":999999999
+    }
+ ]

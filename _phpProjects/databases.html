@@ -17,3 +17,279 @@ languages: HTML, PHP, CSS, SQL
 <ul class="list-disc px-4">
     <li></li>
 </ul>
+
+<h2 class="text-blue-600 text-xl font-bold">Sample Data Tables</h2>
+
+<div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+    <input type="checkbox" /> 
+    <div class="collapse-title text-xl font-medium">
+        <h2 class="text-rose-500 text-lg font-bold pb-2">PROFESSOR</h2>
+    </div>
+    <div class="collapse-content"> 
+        <div class="overflow-x-auto">
+            <table class="table table-compact w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th></th> 
+                        <th>SSN</th> 
+                        <th>Professor Name</th> 
+                        <th>STREET ADDRESS</th> 
+                        <th>CITY</th> 
+                        <th>STATE</th>
+                        <th>ZIPCODE</th>
+                        <th>AREA CODE</th>
+                        <th>DIGIT NUMBER</th>
+                        <th>SEX</th>
+                        <th>TITLE</th>
+                        <th>SALARY</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    {% assign row = 0 %}
+                    {% for professor in site.data.professor %}
+                        <tr>
+                            {% assign row = row | plus: 1%}
+                            <th>{{ row }}</th> 
+                            <td>{{ professor.ssn }}</td>
+                            <td>{{ professor.name }}</td>
+                            <td>{{ professor.street }}</td>
+                            <td>{{ professor.city }}</td>
+                            <td>{{ professor.state }}</td>
+                            <td>{{ professor.zipcode }}</td>
+                            <td>{{ professor.areaCode }}</td>
+                            <td>{{ professor.digitNum }}</td>
+                            <td>{{ professor.sex }}</td>
+                            <td>{{ professor.title }}</td>
+                            <td>{{ professor.salary }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+    <input type="checkbox" /> 
+    <div class="collapse-title text-xl font-medium">
+        <h2 class="text-rose-500 text-lg font-bold pb-2">DEPARTMENT</h2>
+    </div>
+    <div class="collapse-content"> 
+        <div class="overflow-x-auto">
+            <table class="table table-compact w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th></th> 
+                        <th>Department #</th> 
+                        <th>Department</th> 
+                        <th>Telephone</th> 
+                        <th>Office</th>
+                        <th>Professor SSN</th>
+                        <th>Chairperson</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    {% assign row = 0 %}
+                    {% for dept in site.data.department %}
+                        <tr>
+                            {% assign row = row | plus: 1%}
+                            <th>{{ row }}</th> 
+                            <td>{{ dept.deptNum }}</td>
+                            <td>{{ dept.deptName }}</td>
+                            <td>{{ dept.telephone }}</td>
+                            <td>{{ dept.office }}</td>
+                            <td>{{ dept.chairSSN }}</td>
+                            <td>{{ dept.chair }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+    <input type="checkbox" /> 
+    <div class="collapse-title text-xl font-medium">
+        <h2 class="text-rose-500 text-lg font-bold pb-2">COURSE</h2>
+    </div>
+    <div class="collapse-content"> 
+        <div class="overflow-x-auto">
+            <table class="table table-compact w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th></th> 
+                        <th>Course #</th> 
+                        <th>Title</th> 
+                        <th>Textbook</th> 
+                        <th>Units</th>
+                        <th>Department #</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    {% assign row = 0 %}
+                    {% for course in site.data.course %}
+                        <tr>
+                            {% assign row = row | plus: 1%}
+                            <th>{{ row }}</th> 
+                            <td>{{ course.number }}</td>
+                            <td>{{ course.title }}</td>
+                            <td>{{ course.textbook }}</td>
+                            <td>{{ course.units }}</td>
+                            <td>{{ course.dept }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+    <input type="checkbox" /> 
+    <div class="collapse-title text-xl font-medium">
+        <h2 class="text-rose-500 text-lg font-bold pb-2">SECTION</h2>
+    </div>
+    <div class="collapse-content"> 
+        <div class="overflow-x-auto">
+            <table class="table table-compact w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th></th> 
+                        <th>Course #</th> 
+                        <th>Section</th> 
+                        <th>Classroom</th> 
+                        <th>Number of Seats</th>
+                        <th>Beginning Time</th>
+                        <th>Ending Time</th>
+                        <th>Professor SSN</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    {% assign row = 0 %}
+                    {% for section in site.data.section %}
+                        <tr>
+                            {% assign row = row | plus: 1%}
+                            <th>{{ row }}</th> 
+                            <td>{{ section.course }}</td>
+                            <td>{{ section.section }}</td>
+                            <td>{{ section.classroom }}</td>
+                            <td>{{ section.seats }}</td>
+                            <td>{{ section.startTime }}</td>
+                            <td>{{ section.endTime }}</td>
+                            <td>{{ section.professorSSN }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+    <input type="checkbox" /> 
+    <div class="collapse-title text-xl font-medium">
+        <h2 class="text-rose-500 text-lg font-bold pb-2">SECTION MEETING DAYS</h2>
+    </div>
+    <div class="collapse-content"> 
+        <div class="overflow-x-auto">
+            <table class="table table-compact w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th></th> 
+                        <th>Course #</th> 
+                        <th>Section #</th> 
+                        <th>Meeting Day</th> 
+                    </tr>
+                </thead> 
+                <tbody>
+                    {% assign row = 0 %}
+                    {% for section in site.data.section_meeting_days %}
+                        <tr>
+                            {% assign row = row | plus: 1%}
+                            <th>{{ row }}</th> 
+                            <td>{{ section.course }}</td>
+                            <td>{{ section.section }}</td>
+                            <td>{{ section.day }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+    <input type="checkbox" /> 
+    <div class="collapse-title text-xl font-medium">
+        <h2 class="text-rose-500 text-lg font-bold pb-2">STUDENT</h2>
+    </div>
+    <div class="collapse-content"> 
+        <div class="overflow-x-auto">
+            <table class="table table-compact w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th></th> 
+                        <th>ID</th> 
+                        <th>First Name</th> 
+                        <th>Last Name</th> 
+                        <th>Address</th> 
+                        <th>Telephone</th>
+                        <th>Department #</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    {% assign row = 0 %}
+                    {% for student in site.data.student %}
+                        <tr>
+                            {% assign row = row | plus: 1%}
+                            <th>{{ row }}</th> 
+                            <td>{{ student.id }}</td>
+                            <td>{{ student.fname }}</td>
+                            <td>{{ student.lname }}</td>
+                            <td>{{ student.address }}</td>
+                            <td>{{ student.telephone }}</td>
+                            <td>{{ student.department }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+    <input type="checkbox" /> 
+    <div class="collapse-title text-xl font-medium">
+        <h2 class="text-rose-500 text-lg font-bold pb-2">ENROLLMENT</h2>
+    </div>
+    <div class="collapse-content"> 
+        <div class="overflow-x-auto">
+            <table class="table table-compact w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th></th> 
+                        <th>ID</th> 
+                        <th>Course #</th> 
+                        <th>Section #</th> 
+                        <th>Grade</th> 
+                    </tr>
+                </thead> 
+                <tbody>
+                    {% assign row = 0 %}
+                    {% for record in site.data.enrollment %}
+                        <tr>
+                            {% assign row = row | plus: 1%}
+                            <th>{{ row }}</th> 
+                            <td>{{ record.id }}</td>
+                            <td>{{ record.course }}</td>
+                            <td>{{ record.section }}</td>
+                            <td>{{ record.grade }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+

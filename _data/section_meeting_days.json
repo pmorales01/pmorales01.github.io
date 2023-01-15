@@ -1,0 +1,52 @@
+[
+    {
+       "day":"Tues",
+       "course":"CPSC 121",
+       "section":12346
+    },
+    {
+       "day":"Thurs",
+       "course":"CPSC 121",
+       "section":12346
+    },
+    {
+       "day":"Thurs",
+       "course":"CPSC 121",
+       "section":12347
+    },
+    {
+       "day":"Fri",
+       "course":"CPSC 121",
+       "section":12347
+    },
+    {
+       "day":"Mon",
+       "course":"CPSC 131",
+       "section":12345
+    },
+    {
+       "day":"Wed",
+       "course":"CPSC 131",
+       "section":12345
+    },
+    {
+       "day":"Sat",
+       "course":"MATH 150A",
+       "section":12001
+    },
+    {
+       "day":"Mon",
+       "course":"MATH 150B",
+       "section":12101
+    },
+    {
+       "day":"Wed",
+       "course":"MATH 150B",
+       "section":12101
+    },
+    {
+       "day":"Fri",
+       "course":"MATH 150B",
+       "section":12102
+    }
+ ]
