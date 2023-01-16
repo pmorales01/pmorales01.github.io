@@ -2,10 +2,10 @@ const div = document.getElementById('btn-container')
 
 const subjects = [["HTML, CSS, JS", './web-dev-projects.html'],
     ["PHP, SQL", './php.html'],
-    ["C++", '#'],
-    ["C", '#'],
+    ["C++", './cpp.html'],
+    ["C", './c.html'],
     ["x86 Assembly", './asm.html'],
-    ["Python", '#']]
+    ["Python", './python.html']]
 
 for (let i = 0; i < subjects.length; ++i) {
     const btn = document.createElement('button')

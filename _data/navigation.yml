@@ -13,10 +13,10 @@ main:
       - title: "PHP, SQL"
         url: './php.html'
       - title: "C++"
-        url: '#'
+        url: './cpp.html'
       - title: "C"
-        url: '#'
+        url: './c.html'
       - title: "x86 Assembly"
         url: './asm.html'
       - title: "Python"
-        url: '#'
+        url: './python.html'
